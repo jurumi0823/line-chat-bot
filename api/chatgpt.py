@@ -3,7 +3,7 @@ import os
 
 # 設定 OpenAI API 密鑰
 # openai.api_key = os.environ["OPENAI_API_KEY"]
-openai.api_key = "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"
+openai.api_key = "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"
 
 # 輸入文本
 input_text = "今天天氣很好，請用中文回答。請做一首跟天氣有關的詩"
@@ -12,7 +12,7 @@ input_text = "今天天氣很好，請用中文回答。請做一首跟天氣有
 model_engine = "text-davinci-003"
 
 # 設定生成的文本長度
-output_length = 300
+output_length = 50
 
 # 使用 GPT-3.5 模型生成文本
 response = openai.Completion.create(
